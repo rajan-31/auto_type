@@ -2,4 +2,4 @@
 
 source ./.venv/bin/activate
 
-./auto_type.py
+xhost +SI:localuser:$(whoami)
